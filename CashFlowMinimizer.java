@@ -68,6 +68,7 @@ public class CashFlowMinimizer {
         }
         
         minimizeCashFlow(numBanks, banks, indexOf, numTransactions, graph, maxNumTypes);
+        sc.close();
     }
 
     static int getMinIndex(Bank[] listOfNetAmounts) {
